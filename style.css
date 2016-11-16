@@ -20,3 +20,40 @@ p {
 #main-div-2 p {
 	background-color: orange;
 }
+
+#li-1 {
+	font-size: 30px;
+} 
+
+#li-2 {
+	font-weight: bold;
+}
+
+#li-3 {
+	text-transform: capitalize;
+}
+
+#mystery-ul li:nth-child(2n+1) {
+	font-family: 'Mystery Quest', cursive;
+}
+
+/*img {
+	width: 200px;
+}*/
+
+#flex-kermit {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flex-kermit > img {
+	width: 30%;
+}
+
+input:valid {
+	background-color: pink;
+}
+
+input:invalid {
+	background-color: yellow;
+}
